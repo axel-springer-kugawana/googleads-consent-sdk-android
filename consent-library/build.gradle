@@ -7,7 +7,8 @@ android {
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.8"
+        setProperty("archivesBaseName", "Consent_Library_$versionName")
     }
     buildTypes {
         debug {
